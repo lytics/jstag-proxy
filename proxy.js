@@ -1,5 +1,3 @@
-// require("https").globalAgent.options.ca = require("ssl-root-cas").create();
-
 const httpProxy = require("http-proxy");
 
 httpProxy
@@ -8,4 +6,4 @@ httpProxy
     secure: true,
     changeOrigin: true,
   })
-  .listen(8080); // See (†)
+  .listen(8080);
