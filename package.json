@@ -1,0 +1,10 @@
+{
+  "name": "@lytics/jstag-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "ssl-root-cas": "^1.3.1"
+  }
+}
